@@ -1,0 +1,48 @@
+<div class="page" data-name="entry">
+  <div class="navbar">
+    <div class="navbar-inner sliding">
+      <div class="left">
+        <a href="#" class="back" style="padding-left: 20px">
+          <i class="f7-icons">&#x021A9;</i>
+        </a>
+      </div>
+      <div class="title">{{ entry.title }}</div>
+    </div>
+  </div>
+
+  <div class="page-content">
+    <div class="block">
+      <div class="row justify-content-center">
+        <div class="col-100 tablet-50 desktop-50">
+          <div class="card demo-facebook-card">
+            <div class="card-header">
+              <div class="demo-facebook-avatar"><i class="f7-icons">&#9617;</i></div>
+              <div class="demo-facebook-name">{{ entry.title }}</div>
+              <div class="demo-facebook-date">{{ entry.date }}</div>
+            </div>
+            {{#if entry.image}}
+              <div class="card-content">
+                <img src="{{ entry.image }}" width="100%"/>
+              </div>
+            {{/if}}
+            <div class="card-content card-content-padding">
+              <p>
+                  {{ entry.description }}
+              </p>
+            </div>
+            <div class="card-footer">
+              <a href="/">
+                <div class="chip">
+                  <div class="chip-media bg-color-blue">
+                    <i class="f7-icons">&#x021A9;</i>
+                  </div>
+                  <div class="chip-label">Back</div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

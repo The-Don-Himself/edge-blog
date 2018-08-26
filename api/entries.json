@@ -1,0 +1,13 @@
+[{
+	"id": 1,
+	"title": "first entry",
+	"image": "/images/beach1.jpg",
+	"description": "first description",
+	"date": "first September"
+}, {
+	"id": 2,
+	"title": "second entry",
+	"image": "/images/beach2.jpg",
+	"description": "second description",
+	"date": "second September"
+}]
